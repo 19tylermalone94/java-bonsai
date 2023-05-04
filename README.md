@@ -1,4 +1,4 @@
 # java-bonsai
 randomly generated pixel-art bonsai
 
-I'm not sure how it's typically done, but this makes a bonsai true using some randomly generated numbers and recursion.
+Cool little bonsai generator written in java. It uses java swing library over a simple video game style loop.
