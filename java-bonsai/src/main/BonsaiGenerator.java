@@ -155,8 +155,8 @@ public class BonsaiGenerator {
     }
 
     public void makeImg() {
-
-        // each pixel is colored according to the array numbers and with a slight variance from the mapped color
+        // each pixel is colored according to the array numbers and colors vary within specific ranges
+        
         for (int i = 0; i < numberArray.length; i++) {
             for (int j = 0; j < numberArray[i].length; j++) {
                 refreshColors();
