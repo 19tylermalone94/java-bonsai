@@ -9,7 +9,7 @@ url="https://github.com/19tylermalone94/java-bonsai"
 license=('MIT')
 depends=('java-runtime')
 
-source=("https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz", ""https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/setup.sh")
+source=("https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz", "https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/setup.sh")
 
 package() {
   cd "$srcdir"
