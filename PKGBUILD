@@ -17,7 +17,7 @@ package() {
   cp -r * "${pkgdir}/usr/share/java-bonsai"
   chmod +x "${pkgdir}/usr/share/java-bonsai/bin/java-bonsai.sh"
   ln -sf "$srcdir/$pkgname-$pkgver/bin/java-bonsai.sh" "$pkgdir/usr/share/java-bonsai/bin/java-bonsai.sh"
-  install -Dm755 "${pkgdir}/setup.sh" "${pkgdir}/usr/share/java-bonsai/bin/setup.sh"
+  install -Dm755 "${srcdir}/setup.sh" "${pkgdir}/usr/share/java-bonsai/bin/setup.sh"
 }
 
 sha256sums=('e14458d9147fa200a3c4b4a75bb286efda514276deff0cc8915df02bda0fc07a' 'ac678105783a987e57273082a1c8d0ba09b34025d67351d2a9dcc8df2a1a2c42')
