@@ -16,7 +16,6 @@ package() {
   mkdir -p "${pkgdir}/usr/share/java-bonsai"
   cp -r * "${pkgdir}/usr/share/java-bonsai"
   chmod +x "${pkgdir}/usr/share/java-bonsai/bin/java-bonsai.sh"
-  ln -sf "${pkgdir}/usr/share/java-bonsai/bin/java-bonsai.sh" "$pkgdir/usr/share/java-bonsai/bin/java-bonsai.sh"
   install -Dm755 "${srcdir}/java-bonsai-wrapper.sh" "${pkgdir}/usr/bin/java-bonsai"
 }
 
