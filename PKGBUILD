@@ -9,7 +9,7 @@ url="https://github.com/19tylermalone94/java-bonsai"
 license=('MIT')
 depends=('java-runtime')
 
-source=("https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz" "https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/setup.sh")
+source=("https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
 
 package() {
   cd "$srcdir"
@@ -17,8 +17,7 @@ package() {
   cp -r * "${pkgdir}/usr/share/java-bonsai"
   chmod +x "${pkgdir}/usr/share/java-bonsai/bin/java-bonsai.sh"
   ln -sf "$srcdir/$pkgname-$pkgver/bin/java-bonsai.sh" "$pkgdir/usr/share/java-bonsai/bin/java-bonsai.sh"
-  install -Dm755 "${srcdir}/setup.sh" "${pkgdir}/usr/share/java-bonsai/bin/setup.sh"
+  install -Dm755 "${srcdir}/java-bonsai-wrapper.sh" "${pkgdir}/usr/bin/java-bonsai"
 }
 
-sha256sums=('e14458d9147fa200a3c4b4a75bb286efda514276deff0cc8915df02bda0fc07a' '7a4140058c493a0130e71da6b24b061552d42fc7e6c98e0cabee7e79ce47a936')
-
+sha256sums=('e14458d9147fa200a3c4b4a75bb286efda514276deff0cc8915df02bda0fc07a')
