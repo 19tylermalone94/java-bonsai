@@ -20,9 +20,11 @@ use makepkg to build and install:
 ```makepkg -si```
 
 
-now you should be able to run the program from anywhere in your system directory:
+now you should be able to run the program from anywhere in your system directory by running the command ```java-bonsai`` in your terminal
 
-```java-bonsai```
+
+![Screenshot from 2023-05-05 11-23-15](https://user-images.githubusercontent.com/88516482/236526999-1ea8f18a-306b-4717-8fa2-77a8a2df4c26.png)
+
 
 
 
