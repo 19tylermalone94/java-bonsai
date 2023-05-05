@@ -7,7 +7,9 @@ For archlinux users:
 
 clone the repo:
 
-```git clone git clone https://github.com/19tylermalone94/java-bonsai.git```
+```bash
+git clone git clone https://github.com/19tylermalone94/java-bonsai.git
+```
 
 
 change directory into package:
