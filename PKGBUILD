@@ -16,7 +16,7 @@ package() {
   mkdir -p "${pkgdir}/usr/share/java-bonsai"
   cp -r * "${pkgdir}/usr/share/java-bonsai"
   chmod +x "${pkgdir}/usr/share/java-bonsai/bin/java-bonsai.sh"
-  ln -s "/usr/share/java-bonsai/bin/java-bonsai.sh" "${pkgdir}/usr/share/java-bonsai/bin/"
+  ln -sf "$srcdir/$pkgname-$pkgver/bin/java-bonsai.sh" "$pkgdir/usr/share/java-bonsai/bin/java-bonsai.sh"
 }
 
 sha256sums=('e14458d9147fa200a3c4b4a75bb286efda514276deff0cc8915df02bda0fc07a')
