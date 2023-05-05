@@ -1,5 +1,5 @@
 # java-bonsai
-Generate pixel-art bonsai trees
+## Generate pixel-art bonsai trees
 
 I really like cbonsai by John Allbritin (https://gitlab.com/jallbrit/cbonsai), and I wanted to make a bonsai generator using pixels instead. This is a random bonsai generator written in Java. Currently it is installable on archlinux systems, but I will set up packages for other systems in the near future.
 
