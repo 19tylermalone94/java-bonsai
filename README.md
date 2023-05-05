@@ -33,6 +33,7 @@ java-bonsai
 ```
 
 
+Press ENTER to generate new bonsai trees. Enjoy!
 ![Screenshot from 2023-05-05 11-23-15](https://user-images.githubusercontent.com/88516482/236526999-1ea8f18a-306b-4717-8fa2-77a8a2df4c26.png)
 
 
