@@ -12,11 +12,11 @@ depends=('java-runtime')
 source=("https://github.com/19tylermalone94/java-bonsai/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
 
 package() {
-  cd "$srcdir/${pkgname}"
+  cd "$srcdir"
   mkdir -p "${pkgdir}/usr/share/java-bonsai"
   cp -r * "${pkgdir}/usr/share/java-bonsai"
-  chmod +x "${pkgdir}/usr/share/java-bonsai/java-bonsai.sh"
-  ln -s "/usr/share/java-bonsai/java-bonsai.sh" "${pkgdir}/usr/bin/java-bonsai"
+  chmod +x "${pkgdir}/usr/share/java-bonsai/bin/java-bonsai.sh"
+  ln -s "/usr/share/java-bonsai/java-bonsai.sh" "${pkgdir}/usr/share/java-bonsai/"
 }
 
-sha256sums=('e14458d9147fa200a3c4b4a75bb286efda514276deff0cc8915df02bda0fc07a  java-bonsai-1.0.0.tar.gz')
+sha256sums=('e14458d9147fa200a3c4b4a75bb286efda514276deff0cc8915df02bda0fc07a')
